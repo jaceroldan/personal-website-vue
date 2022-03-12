@@ -1,0 +1,27 @@
+{
+  "name": "vue-version",
+  "version": "1.0.0",
+  "description": "Jace Roldan's personal website made with VueJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaceroldan/personal-website-vue.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "vuejs",
+    "resume",
+    "about",
+    "me"
+  ],
+  "author": "Jace Roldan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaceroldan/personal-website-vue/issues"
+  },
+  "homepage": "https://github.com/jaceroldan/personal-website-vue#readme"
+}
