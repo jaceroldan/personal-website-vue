@@ -49,7 +49,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="company-logo">
-                                    <img src="../assets/img/bposeats-logo-icon.png" alt="BPOSeats Logo">
+                                    <img :src="require('./assets/img/bposeats-logo-icon.png')" alt="BPOSeats Logo">
                                 </div>
                             </div>
                             <div class="col">
@@ -112,7 +112,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="company-logo">
-                                    <img src="../assets/img/UP-Seal.png" alt="University of the Philippines logo">
+                                    <img :src="require('./assets/img/UP-Seal.png')" alt="University of the Philippines logo">
                                 </div>
                             </div>
                             <div class="col">
@@ -138,7 +138,7 @@
                         <div class="row">
                             <div class="col">
                                 <div class="company-logo">
-                                    <img src="../assets/img/Tug-ani Logo.png" alt="BPOSeats Logo" height="100" width="45">
+                                    <img :src="require('./assets/img/Tug-ani Logo.png')" alt="BPOSeats Logo" height="100" width="45">
                                 </div>
                             </div>
                             <div class="col">
