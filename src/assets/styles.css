@@ -93,6 +93,10 @@ a:hover {
 	gap: 2em;
 }
 
+.coming-soon {
+    text-align: center;
+}
+
 .experience-container {
 	background-color: black;
 	min-height: 100vh;

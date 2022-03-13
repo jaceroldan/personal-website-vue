@@ -1,6 +1,6 @@
 <template>
     <main class="container">
-        <nav class="main-nav">
+        <nav v-if="false" class="main-nav">
             <div class="main-nav--body">
                 <div class="nav-logo">
                     <!-- Img: For the logo -->
@@ -18,7 +18,7 @@
                 <h1 class="heading">Jace Roldan</h1>
                 <h2 class="header-subtext">Web Developer</h2>
             </header>
-            <aside class="askme">
+            <aside v-if="false" class="askme">
                 <div class="askme-input" style="display: none;">
                     <h3>Ask me?</h3>
                     <p>Can Jace <span class="">do</span>:</p>
@@ -30,11 +30,16 @@
                     <p>Send me an email at <a href="mailto:jaceroldan16@gmail.com" target="_blank">jaceroldan16@gmail.com!</a></p>
                 </div>
             </aside>
+            <aside class="coming-soon">
+                <div class="askme-result">
+                    <p>Not much to see yet... but send me an email at <a href="mailto:jaceroldan16@gmail.com" target="_blank">jaceroldan16@gmail.com!</a></p>
+                </div>
+            </aside>
         </section>
         <section class="subsection about-container">
 
         </section>
-        <section class="subsection experience-container">
+        <section v-if="false" class="subsection experience-container">
             <div class="experience-header">
                 <h1>Experience</h1> 
             </div>
@@ -162,7 +167,7 @@
                 </div>
             </div>
         </section>
-        <section class="subsection portfolio-container">
+        <section v-if="false" class="subsection portfolio-container">
             <div class="portfolio-header">            
                 <h1>Portfolio</h1>
             </div>
